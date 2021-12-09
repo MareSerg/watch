@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Интернет-магазин часов</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="page-header">
+  <h1 class="visually-hidden">CONQUEST</h1>
+  <nav class="page-header__main-nav main-nav">
+    <a class="main-nav__logo logo">
+      <img class="logo__img" src="img/logo.png" alt="Логотип" width="103" height="26">
+    </a>
+
+    <ul class="main-nav__list">
+      <li class="main-nav__item">
+        <a class="main-nav__link" href="#">Каталог</a>
+      </li>
+      <li class="main-nav__item">
+        <a class="main-nav__link" href="#">Акции</a>
+      </li>
+      <li class="main-nav__item">
+        <a class="main-nav__link" href="#">Доставка</a>
+      </li>
+      <li class="main-nav__item">
+        <a class="main-nav__link" href="#">Контакты</a>
+      </li>
+    </ul>
+  </nav>
+  <nav class="page-header__user-nav user-nav">
+    <ul class="user-nav__list">
+      <li class="user-nav__item">
+        <a class="user-nav__link" href="#"><img src ="img/MagnifierOnePage.svg" alt="Поиск"></a>
+      </li>
+      <li class="user-nav__item">
+        <a class="user-nav__link" href="#"><img src ="img/HeartOnePage.svg" alt="Избранное"></a>
+      </li>
+      <li class="user-nav__item">
+        <a class="user-nav__link" href="#"><img src ="img/BasketOnePage.svg" alt="Корзина"></a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<main class="main">
+  <section class="promo">
+    <h2 class="promo__title">Весна/Лето 2019</h2>
+    <p class="promo__sub-title">Коллекция</p>
+    <p class="promo__description">Швейцарские часы в наличии в Москве и с доставкой по всему миру</p>
+    <a class="promo__link button" href="#">Смотреть каталог</a>
+    <img class="promo__img" src="img/watchOnePage.png" alt="Тёмные часы с сапфировым стеклом из новой коллекции" width="502" height="804">
+    <span class="promo__price price">22 000
+      <svg width="10" height="13" viewBox="0 0 10 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2.04761 0.500854H6.03569C7.72543 0.500854 9.09524 1.87066 9.09524 3.5604C9.09524 5.25014 7.72543 6.61995 6.03569 6.61995H2.04761V0.500854Z" stroke="#1B1A17"/>
+        <path d="M2 6.50085H0" stroke="#1B1A17"/>
+        <path d="M2.00006 0.000854492V13.0009M0.30957 9.69562H6.80958" stroke="#1B1A17"/>
+      </svg>
+    </span>
+    <span class="promo__characteristics price">28 мм диаметр</span>
+  </section>
+  
+  <section class="popular">
+    <h2 class="popular__title heading">Популярные модели</h2>
+    <a class="popular__show-more" href="#">Смотреть все</a>
+    <ul class="popular__list">
+      <li class="popular__item">
+        <article class="popular__card card">
+          <h2 class="card__title one name">RADO</h2>
+          <span class="card__price one price">63 300</span>
+          <img class="card__img one" src="img/watchTwoPage.png" alt="описание вида часов" width="313" height="313">
+          <a class="card__link one inform" href="#">Подробнее</a>
+        </article>
+      </li>
+      <li class="popular__item">
+        <article class="popular__card card">
+          <h2 class="card__title two name">BVLGARI</h2>
+          <span class="card__price two price">63 300</span>
+          <img  class="card__img two" src="img/watchTwoPage2.png" alt="описание вида часов" width="313" height="313">
+          <a class="card__link two inform" href="#">Подробнее</a>
+        </article>
+      </li>
+      <li class="popular__item">
+        <article class="popular__card card">
+          <h2 class="card__title three name">BVLGARI</h2>
+          <span class="card__price three price">63 300</span>
+          <img  class="card__img three" src="img/watchTwoPage3.png" alt="описание вида часов" width="313" height="313">
+          <a class="card__link three inform" href="#">Подробнее</a>
+        </article>
+      </li>
+    </ul>
+  </section>
+
+  <section class="advantages">
+    <!--<h2 class="visually-hidden">Преимущества</h2>-->
+    <ul class="advantagess__list">
+      <li class="advantages__item">
+        <div class="advantages__left">
+          <img class="advantages__img" src="img/bannerThreePage.jpg" alt="детализация механизма часов" width="521" height="414">
+        </div>
+        <div class="advantages__right">
+          <h3 class="advantages__title heading">Подлинное качество</h3>
+          <p class="advantages__description">Все часы производятся в Швейцарии и имеют сертификаты качества. Настоящие швейцарские часы — это предмет гордости и престижа.</p>
+          <a class="advantages__link button" href="#">Смотреть каталог</a>
+        </div>
+      </li>
+    </ul>
+    <div class="advantages__slider-control slider-control">
+      <button class="advantages__button button" type="button"><img src="img/left.png " alt="Предыдущий"></button>
+      <span class="slider-control__position">01</span>
+      <button class="advantages__button button" type="button"><img src="img/right.png " alt="Следующий"></button>
+    </div>
+  </section>
+
+  <section class="news-company">
+    <!--<h2 class="visually-hidden"> Подписка на новости</h2>-->
+    <div class="news-company__left">
+      <p class="news-company__text heading">Следите за нашими новостями</p>
+      <p class="news-company__description">Подписывайтесь на <strong>@conquest_watch</strong> в соцсетях и узнавайте о новинках и акциях первыми.</p>
+      <section class="news-company__socials socials">
+        <!--<h2 class="visually-hidden">Наши социальные сети</h2>-->
+        <ul class="socials__list">
+          <li class="socials__item">
+            <a class="socials__link" href="#"><img src="img/instagram.svg" alt="Мы в инсте"> <svg></svg></a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="#"><img src="img/facebook.svg" alt="Мы в ФБ"> <svg></svg></a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="#"><img src="img/twitter.svg" alt="Мы в твиттер"> <svg></svg></a>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <div class="news-company__right">
+      <a href="#"><img class="news-company__img one" src="img/fotoFourPage.jpg" alt="Описание фото" width="242" height="228"></a>
+      <a href="#"><img class="news-company__img two" src="img/fotoFourPage2.jpg" alt="Описание фото" width="377" height="460"></a>
+      <a href="#"><img class="news-company__img three" src="img/fotoFourPage3.jpg" alt="Описание фото" width="242" height="228"></a>
+    </div>
+  </section>
+  
+</main>
+
+<footer class="page-footer">
+  <h1 class="visually-logo">CONQUEST</h1>
+  <div class="page-footer__column page-footer-column--logo">
+    <a class="page-footer__logo logo">
+      <img class="page-footer__logo logo" src="img/logo2.png" alt="Логотип" width="103" height="26">
+    </a>
+    <div class="page-footer__wrapper info">
+      <a class="page-footer__link info one" href="tel:+784994504797">8 (499) 450-47-97</a>
+      <a class="page-footer__link info two" href="mailto:info@conquest.watch.ru">info@conquest.watch.ru</a>
+    </div>
+  </div>
+  <div class="page-footer__column page-footer__column--about company">
+    <h3 class="page-footer__title company">О Компании</h3>
+    <div class="page-footer__wrapper">
+      <ul class="page-footer__list company">
+        <li class="page-footer__item company">
+          <a class="page-footer__link" href="#" style="color: rgba(255, 255, 255, 0.75);">Наши магазины</a><!--Стиль добавлен, тк из файла CSS не действовал белый цвет текста, к сожалению, как исправить не поняла-->
+        </li>
+        <li class="page-footer__item company">
+          <a class="page-footer__link" href="#" style="color: rgba(255, 255, 255, 0.75);"> Вакансии</a>
+        </li>
+        <li class="page-footer__item company">
+          <a class="page-footer__link" href="#" style="color: rgba(255, 255, 255, 0.75);">Сертификаты</a>
+        </li>
+        <li class="page-footer__item company">
+          <a class="page-footer__link" href="#" style="color: rgba(255, 255, 255, 0.75);">Отзывы</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="page-footer__column page-footer__column--about custom">
+    <h3 class="page-footer__title custom">Покупателям</h3>
+    <div class="page-footer__wrapper">
+      <ul class="page-footer__list custom">
+        <li class="page-footer__item custom">
+          <a class="page-footer__link" href="#"style="color: rgba(255, 255, 255, 0.75);">Каталог товаров</a>
+        </li>
+        <li class="page-footer__item custom">
+          <a class="page-footer__link" href="#"style="color: rgba(255, 255, 255, 0.75);">Как заказать?</a>
+        </li>
+        <li class="page-footer__item custom">
+          <a class="page-footer__link" href="#"style="color: rgba(255, 255, 255, 0.75);">FAQ</a>
+        </li>
+        <li class="page-footer__item custom">
+          <a class="page-footer__link" href="#"style="color: rgba(255, 255, 255, 0.75);">Корпоративным клиентам</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="page-footer__column page-footer__column--about pay">
+    <h3 class="page-footer__title pay">Оплата и доставка</h3>
+    <div class="page-footer__wrapper">
+      <ul class="page-footer__list pay">
+        <li class="page-footer__item pay">
+          <a class="page-footer__link" href="#"style="color: rgba(255, 255, 255, 0.75);">Способы оплаты</a>
+        </li>
+        <li class="page-footer__item pay">
+          <a class="page-footer__link" href="#"style="color: rgba(255, 255, 255, 0.75);">Время доставки</a>
+        </li>
+        <li class="page-footer__item pay">
+          <a class="page-footer__link" href="#"style="color: rgba(255, 255, 255, 0.75);">Гарантии и ремонт</a>
+        </li>
+        <li class="page-footer__item pay">
+          <a class="page-footer__link" href="#"style="color: rgba(255, 255, 255, 0.75);" >Возврат и компенсация</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
