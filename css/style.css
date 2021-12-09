@@ -1,0 +1,579 @@
+@font-face { /*шрифт GoogleFonts шрифты c лицензией*/
+    font-family: 'Roboto';
+    src: local('Roboto'), local('Roboto-Regular'),
+        url('../fronts/Roboto-Regular.woff2') format('woff2');
+    font-weight: 400; /*поменять на цифры*/
+    font-style: normal;
+    font-display: swap;
+}/*обязательные указания*/
+
+@font-face {/*и тд другие шрифты*/
+    font-family: 'Playfair Display';
+    src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'),
+        url('../fronts/PlayfairDisplay-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Light'), local('Roboto-Light'),
+        url('../fronts/Roboto-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Medium'), local('Roboto-Medium'),
+        url('../fronts/Roboto-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prata';
+    src: local('Prata Regular'), local('Prata-Regular'),
+        url('../fronts/Prata-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: local('Playfair Display Bold'), local('PlayfairDisplay-Bold'),
+        url('../fronts/PlayfairDisplay-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    font-family: 'Roboto', sans-serif;/* вызов шрифта*/
+    font-size: 16px;
+    line-height:24px ;
+    background-color: white;
+    color:black ;
+}
+a {
+    text-decoration: none;/*подчеркивание*/
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+ul {
+    list-style: none; /*точки*/
+}
+.heading { /* стили для класса переопределяют стили по тегу*/
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    color: #1b1a17;
+}
+
+.price {
+    font-family: 'Prata' sans-serif ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(27, 26, 23, 0.82);
+}
+.name {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(27, 26, 23, 0.82)
+}
+.inform {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1B1A17;
+}
+.logo__img {
+    width: 1.5%;
+    height: auto;
+    position: absolute;
+    left: 8%;
+    top: 5.5%;
+    transform: matrix(0.88, -0.47, 0.47, 0.88, 0, 0);
+}
+ .visually-hidden {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.14em;
+    color: #555248;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+ }
+ .promo {
+    position: absolute;
+    width: 100%;
+    height: 31px;
+    left: 185px;
+    top: 385px;
+ }
+.promo__title{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 60px;
+    color: #1B1A17;
+    position: absolute;
+    width: 100%;
+    height: 31px;
+    left: 0%;
+    top: -350%;
+}
+.promo__sub-title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    color: #1B1A17;
+    position: absolute;
+    width: 100%;
+    height: 31px;
+    left: 0%;
+    top: -100%;
+}
+.promo__description{
+    position: absolute;
+    width: 20%;
+    height: 31px;
+    left: 0%;
+    top: 150%;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: rgba(27, 26, 23, 0.82);
+}
+ .main-nav__list {
+     margin: 0;
+     padding: 0px;
+     position: absolute;
+    width: 500px;
+    height: 13px;
+    left: 467px;
+     top: 35px;
+ }
+ .user-nav__list {
+    position: absolute;
+    width: 200px;
+    height: 21px;
+    left: 1167px;
+    top: 35px;
+ }
+ .main-nav__item{
+     display: inline;
+     margin-right: 65px;
+     border: 0px;
+     padding: 0px;
+ }
+ .user-nav__item{
+    display: inline;
+    margin-right: 23px;
+    border: 0px;
+    padding: 0px;
+ }
+ .main-nav__link{
+    
+     font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #555248;
+ }
+ .promo__img {
+    position: absolute;
+    width: 25%;
+    height: auto;
+    left: 35%;
+    top:-900%;
+ }
+ .promo__price {
+    position: absolute;
+    left: 33%;
+    top: -600%;
+ }
+ .promo__characteristics {
+    position: absolute;
+    left: 57%;
+    top:700%;
+ }
+ .popular__title{
+    position: absolute;
+    left: 40%;
+    top: 110%;
+ }
+ .card__img.one{
+    position: absolute;
+    width: 20%;
+    height: auto;
+    left: 7%;
+    top: 130%;
+    filter: drop-shadow(2px 2px 10px rgba(85, 82, 72, 0.23));
+ }
+ .card__img.two {
+    position: absolute;
+    width: 20%;
+    height: auto;
+    left: 40%;
+    top: 130%;
+    filter: drop-shadow(2px 2px 10px rgba(92, 92, 80, 0.23));
+ }
+ .card__img.three {
+    position: absolute;
+    width: 20%;
+    height: auto;
+    left: 73%;
+    top: 130%;
+    filter: drop-shadow(2px 2px 10px rgba(85, 82, 72, 0.23));
+ }
+ .card__title.one{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 6%;
+    top: 125%;
+ }
+ .card__title.two{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 39%;
+    top: 125%;
+ }
+ .card__title.three{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 72%;
+    top: 125%;
+ }
+ .card__price.one{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 6%;
+    top: 130%;
+ }
+ .card__price.two{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 39%;
+    top: 130%;
+ }
+ .card__price.three{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 72%;
+    top: 130%;
+ }
+ .card__link.one{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 12%;
+    top: 172%;
+ }
+ .card__link.two {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 45%;
+    top: 172%;
+ }
+ .card__link.three {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 78%;
+    top: 172%;
+ }
+ .advantages__img{
+    position: absolute;
+    width: 40%;
+    height: auto;
+    left: 10%;
+    top: 210%;
+ }
+ .advantages__title{
+     position: absolute;
+    left: 58%;
+    top: 220%;
+ }
+ .advantages__description{
+    position: absolute;
+    width: 25%;
+    height:auto;
+    left: 58%;
+    top: 233%;
+ }
+ .news-company__img.one{
+    position: absolute;
+    width: 19%;
+    height: auto;
+    left: 45%;
+    top: 300%;
+ }
+ .news-company__img.two {
+    position: absolute;
+    width: 19%;
+    height: auto;
+    left: 45%;
+    top: 341%;
+ }
+ .news-company__img.three{
+    position: absolute;
+    width: 30%;
+    height: auto;
+    left: 65%;
+    top: 300%;
+ }
+ .news-company__text{
+    position: absolute;
+    left: 6%;
+    top: 320%;
+ }
+ .news-company__description{
+    position: absolute;
+    width: 30%;
+    left: 6%;
+    top: 333%;
+ }
+.socials__item{
+    display: inline;
+     margin-right: -19%;
+     border: 0px;
+     padding: 0px;
+}
+.socials__list {
+    margin: 0;
+    padding: 0px;
+    position: absolute;
+   width: 100%;
+   height: auto;
+   left: 6%;
+    top: 345%;
+ }
+ footer {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    left: 0%;
+    top: 390%;
+    background: #444240;
+ }
+ .page-footer__title.company{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 30%;
+    top: 20%;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+ }
+ .page-footer__title.custom{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 50%;
+    top: 20%;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+ }
+ .page-footer__title.pay{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 70%;
+    top: 20%;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+ }
+ .page-footer__list.company{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 27.5%;
+    top: 27%;
+}
+.page-footer__item.company{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 1%;
+ }
+ .page-footer__list.custom{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 47.5%;
+    top: 27%;
+ }
+ .page-footer__item.custom{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 1%;
+ }
+ .page-footer__list.pay{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 67.5%;
+    top: 27%;
+ }
+ .page-footer__item.pay{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 1%;
+ }
+ .page-footer__logo{
+    position: absolute;
+    width: 25.11px;
+    height: 25.13px;
+    left: 8%;
+    top: 22%;
+    transform: rotate(-28.2deg);
+ }
+ .page-footer__wrapper.info{
+    position: absolute;
+    width: 160px;
+    height: 35px;
+    left: 8%;
+    top: 35%;
+ }
+ .info.one, .info.two{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.75);
+ }
+ .visually-logo{
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.14em;
+    color:#FFFFFF;
+    position: absolute;
+    left: 10.5%;
+    top:22.5%;
+ }
+ .advantages__link.button{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 26px 38px;
+    background-color: #d4b098;
+
+    position: absolute;
+    left: 58%;
+    top: 250%;
+
+ }
+ .promo__link.button{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 26px 38px;
+    background-color: #444240;
+    position: absolute;
+    top:400% ;
+ }
+.slider-control{
+    position: absolute;
+    left: 45%;
+    top: 280%;
+}
+.advantages__button.button{
+    border: 0px solid #1B1A17;
+    background-color: #FFFFFF;
+}
+ .slider-control__position{
+    font-family: "Prata";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(27, 26, 23, 0.82);
+ }
+ .popular__show-more{
+    position: absolute;
+    left: 88%;
+    top: 120%;
+    
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #444240;
+ }
+
+
